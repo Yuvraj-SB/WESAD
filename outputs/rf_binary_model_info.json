@@ -1,0 +1,46 @@
+{
+  "variant": "binary",
+  "model_type": "random forest trained with local NumPy implementation",
+  "feature_columns": [
+    "mean",
+    "std",
+    "min",
+    "max",
+    "median",
+    "range",
+    "energy",
+    "rms",
+    "skewness",
+    "kurtosis"
+  ],
+  "class_order": [
+    "non-stress",
+    "stress"
+  ],
+  "train_subjects": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11"
+  ],
+  "test_subjects": [
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17"
+  ],
+  "num_train_samples": 2157,
+  "num_test_samples": 1099,
+  "n_trees": 25,
+  "max_depth": 8,
+  "min_samples_split": 10,
+  "min_samples_leaf": 5,
+  "max_features": 3
+}

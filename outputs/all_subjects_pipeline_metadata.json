@@ -1,0 +1,80 @@
+{
+  "subjects_processed": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17"
+  ],
+  "dataset_files_modified": [],
+  "dataset_files_read": [
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S2\\S2.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S3\\S3.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S4\\S4.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S5\\S5.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S6\\S6.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S7\\S7.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S8\\S8.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S9\\S9.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S10\\S10.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S11\\S11.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S13\\S13.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S14\\S14.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S15\\S15.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S16\\S16.pkl",
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S17\\S17.pkl"
+  ],
+  "bvp_sampling_rate_hz": 64,
+  "label_sampling_rate_hz": 700,
+  "filter": {
+    "type": "Butterworth-style bandpass via NumPy FFT response",
+    "low_cutoff_hz": 0.5,
+    "high_cutoff_hz": 4.0,
+    "order": 4
+  },
+  "windowing": {
+    "window_seconds": 20,
+    "step_seconds": 10,
+    "window_samples": 1280,
+    "step_samples": 640
+  },
+  "valid_labels": {
+    "1": "baseline",
+    "2": "stress",
+    "3": "amusement",
+    "4": "meditation"
+  },
+  "subject_split": {
+    "train_subjects": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10",
+      "S11"
+    ],
+    "test_subjects": [
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17"
+    ]
+  },
+  "num_total_segments": 75,
+  "num_total_windows": 4389
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510" height="490" viewBox="0 0 510 490">
+<rect width="100%" height="100%" fill="white" />
+<text x="255.0" y="36" text-anchor="middle" font-family="Arial" font-size="24">Linear SVM Confusion Matrix (3class)</text>
+<text x="255.0" y="70" text-anchor="middle" font-family="Arial" font-size="14">Predicted label</text>
+<text x="34" y="245.0" transform="rotate(-90 34 245.0)" text-anchor="middle" font-family="Arial" font-size="14">True label</text>
+<text x="195.0" y="82" text-anchor="middle" font-family="Arial" font-size="13">baseline</text>
+<text x="285.0" y="82" text-anchor="middle" font-family="Arial" font-size="13">stress</text>
+<text x="375.0" y="82" text-anchor="middle" font-family="Arial" font-size="13">amusement</text>
+<text x="134" y="150.0" text-anchor="end" font-family="Arial" font-size="13">baseline</text>
+<text x="134" y="240.0" text-anchor="end" font-family="Arial" font-size="13">stress</text>
+<text x="134" y="330.0" text-anchor="end" font-family="Arial" font-size="13">amusement</text>
+<rect x="150" y="100" width="90" height="90" fill="rgb(125,108,115)" stroke="#666" stroke-width="1" />
+<text x="195.0" y="151.0" text-anchor="middle" font-family="Arial" font-size="18">481</text>
+<rect x="240" y="100" width="90" height="90" fill="rgb(219,218,225)" stroke="#666" stroke-width="1" />
+<text x="285.0" y="151.0" text-anchor="middle" font-family="Arial" font-size="18">103</text>
+<rect x="330" y="100" width="90" height="90" fill="rgb(245,248,255)" stroke="#666" stroke-width="1" />
+<text x="375.0" y="151.0" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+<rect x="150" y="190" width="90" height="90" fill="rgb(221,220,227)" stroke="#666" stroke-width="1" />
+<text x="195.0" y="241.0" text-anchor="middle" font-family="Arial" font-size="18">96</text>
+<rect x="240" y="190" width="90" height="90" fill="rgb(185,178,185)" stroke="#666" stroke-width="1" />
+<text x="285.0" y="241.0" text-anchor="middle" font-family="Arial" font-size="18">239</text>
+<rect x="330" y="190" width="90" height="90" fill="rgb(245,248,255)" stroke="#666" stroke-width="1" />
+<text x="375.0" y="241.0" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+<rect x="150" y="280" width="90" height="90" fill="rgb(215,213,220)" stroke="#666" stroke-width="1" />
+<text x="195.0" y="331.0" text-anchor="middle" font-family="Arial" font-size="18">117</text>
+<rect x="240" y="280" width="90" height="90" fill="rgb(229,229,236)" stroke="#666" stroke-width="1" />
+<text x="285.0" y="331.0" text-anchor="middle" font-family="Arial" font-size="18">63</text>
+<rect x="330" y="280" width="90" height="90" fill="rgb(245,248,255)" stroke="#666" stroke-width="1" />
+<text x="375.0" y="331.0" text-anchor="middle" font-family="Arial" font-size="18">0</text>
+</svg>

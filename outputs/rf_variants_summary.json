@@ -1,0 +1,20 @@
+[
+  {
+    "variant": "3class",
+    "metrics_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\rf_3class_metrics.json",
+    "confusion_svg_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\rf_3class_confusion_matrix.svg",
+    "accuracy": 0.6942675159235668,
+    "macro_f1": 0.5921851388334884,
+    "num_train_samples": 2157,
+    "num_test_samples": 1099
+  },
+  {
+    "variant": "binary",
+    "metrics_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\rf_binary_metrics.json",
+    "confusion_svg_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\rf_binary_confusion_matrix.svg",
+    "accuracy": 0.7843494085532302,
+    "macro_f1": 0.7474667951650231,
+    "num_train_samples": 2157,
+    "num_test_samples": 1099
+  }
+]

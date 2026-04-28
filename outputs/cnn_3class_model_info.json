@@ -1,0 +1,42 @@
+{
+  "variant": "3class",
+  "model_type": "1D CNN using PyTorch",
+  "feature_input": "filtered raw BVP windows normalized per window",
+  "class_order": [
+    "baseline",
+    "stress",
+    "amusement"
+  ],
+  "train_subjects": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11"
+  ],
+  "test_subjects": [
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17"
+  ],
+  "num_train_samples": 2157,
+  "num_test_samples": 1099,
+  "window_seconds": 20,
+  "step_seconds": 10,
+  "sampling_rate_hz": 64,
+  "epochs": 50,
+  "batch_size": 64,
+  "class_weights": [
+    0.6208981275558472,
+    1.1199376583099365,
+    2.014005661010742
+  ],
+  "device": "cpu"
+}

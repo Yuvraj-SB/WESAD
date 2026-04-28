@@ -1,0 +1,22 @@
+[
+  {
+    "variant": "3class",
+    "metrics_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\cnn_3class_metrics.json",
+    "confusion_svg_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\cnn_3class_confusion_matrix.svg",
+    "history_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\cnn_3class_training_history.csv",
+    "accuracy": 0.5550500454959054,
+    "macro_f1": 0.5367866449848849,
+    "num_train_samples": 2157,
+    "num_test_samples": 1099
+  },
+  {
+    "variant": "binary",
+    "metrics_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\cnn_binary_metrics.json",
+    "confusion_svg_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\cnn_binary_confusion_matrix.svg",
+    "history_path": "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\outputs\\cnn_binary_training_history.csv",
+    "accuracy": 0.7970882620564149,
+    "macro_f1": 0.787962108188407,
+    "num_train_samples": 2157,
+    "num_test_samples": 1099
+  }
+]
