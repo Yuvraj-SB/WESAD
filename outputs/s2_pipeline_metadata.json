@@ -1,0 +1,41 @@
+{
+  "subject": "S2",
+  "dataset_files_read": [
+    "C:\\Users\\Aparjyot S Bhatia\\Downloads\\WESAD\\WESAD\\S2\\S2.pkl"
+  ],
+  "dataset_files_modified": [],
+  "bvp_sampling_rate_hz": 64,
+  "label_sampling_rate_hz": 700,
+  "filter": {
+    "type": "Butterworth-style bandpass via NumPy FFT response",
+    "low_cutoff_hz": 0.5,
+    "high_cutoff_hz": 4.0,
+    "order": 4
+  },
+  "windowing": {
+    "window_seconds": 20,
+    "step_seconds": 10,
+    "window_samples": 1280,
+    "step_samples": 640
+  },
+  "valid_labels": {
+    "1": "baseline",
+    "2": "stress",
+    "3": "amusement",
+    "4": "meditation"
+  },
+  "mapped_bvp_label_counts": {
+    "baseline": 73216,
+    "stress": 39360,
+    "amusement": 23168,
+    "meditation": 49151
+  },
+  "num_valid_segments": 5,
+  "num_windows": 282,
+  "window_counts_by_label": {
+    "baseline": 113,
+    "stress": 60,
+    "meditation": 74,
+    "amusement": 35
+  }
+}

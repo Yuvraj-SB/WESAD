@@ -1,0 +1,6 @@
+subject,label_id,label_name,start_sample,end_sample,start_seconds,end_seconds,num_samples,duration_seconds
+S2,1,baseline,19620,92835,306.562,1450.562,73216,1144.0
+S2,2,stress,145507,184866,2273.547,2888.547,39360,615.0
+S2,4,meditation,262244,287266,4097.562,4488.547,25023,390.984
+S2,3,amusement,304868,328035,4763.562,5125.562,23168,362.0
+S2,4,meditation,351780,375907,5496.562,5873.562,24128,377.0
