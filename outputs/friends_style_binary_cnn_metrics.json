@@ -1,0 +1,33 @@
+{
+  "accuracy": 0.8362889983579639,
+  "macro_f1": 0.820599205797078,
+  "per_class": {
+    "non-stress": {
+      "precision": 0.9535269709543569,
+      "recall": 0.8061272217025257,
+      "f1": 0.8736535293372196,
+      "support": 4276
+    },
+    "stress": {
+      "precision": 0.665050505050505,
+      "recall": 0.9073869900771775,
+      "f1": 0.7675448822569364,
+      "support": 1814
+    }
+  },
+  "confusion_matrix": [
+    [
+      3447,
+      829
+    ],
+    [
+      168,
+      1646
+    ]
+  ],
+  "class_order": [
+    "non-stress",
+    "stress"
+  ],
+  "num_test_samples": 6090
+}
