@@ -1,0 +1,22 @@
+## Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+## Virtual environments
+.venv/
+venv/
+env/
+
+## OS / editor noise
+.DS_Store
+Thumbs.db
+
+## Large raw WESAD data files intentionally excluded from GitHub
+S*/S*.pkl
+S*/*_respiban.txt
+S*/*_E4_Data.zip
+
+## Local scratch / temporary exports
+outputs/pdf_review_pages/
